@@ -4,10 +4,10 @@ body {
     padding: 0;
     background-color: #ffffff;
     color: #333;
-    background-image: url("sun.jpg"), url("moon.jpg");
+    background-image: url("legacy.jpg"), url("legacy4.jpg");
     background-repeat: no-repeat, no-repeat;
-    background-position:bottom, top;
-    background-size: 100% 50%, 100% 50%;
+    background-size: 50% 100%, 50% 100%;
+    background-position: left, right;
 }
 .container {
     width: 800px;
@@ -16,6 +16,8 @@ body {
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
 }
 .header {
     text-align: center;
@@ -30,7 +32,7 @@ body {
 .header h1 {
     font-size: 40px;
     margin: 10px 0;
-    color: #ffb74d;
+    color: #1e60a2;
 }
 .header h2 {
     font-size: 30px;
